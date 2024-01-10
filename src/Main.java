@@ -11,6 +11,8 @@ public class Main {
         System.out.println("Writteble: "+myObj.canWrite());
         System.out.println("Readable: "+myObj.canRead());
         System.out.println("File size in bytes: "+myObj.length());
+    }else {
+        System.out.println("The file does not exist.");
     }
 
       /*
